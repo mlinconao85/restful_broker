@@ -1,0 +1,38 @@
+[
+
+  {
+    "scenario": 1,
+    "schema":
+      {
+        "firstname":"#string",
+        "lastname":"#string",
+        "totalprice":"#number",
+        "depositpaid":"#exist",
+        "bookingdates":
+          {
+            "checkin":"#date",
+            "checkout":"#date"
+          },
+        "additionalneeds":"#string"}
+
+  },
+  {
+    "scenario": "CreateBooking",
+    "schema":
+    {"bookingid":"#exist",
+      "booking":
+      {"firstname":"Moises",
+        "lastname":"Linconao",
+        "totalprice":100,
+        "depositpaid":true,
+        "bookingdates":
+        {
+          "checkin":"2023-11-01",
+          "checkout":"2023-11-15"},
+        "additionalneeds":"Breakfast"}
+    }
+
+  }
+
+
+]

@@ -1,0 +1,83 @@
+[
+
+  {
+    "scenario": 1,
+    "schema":
+    {
+      "firstname" : "Moises",
+      "lastname" : "Linconao",
+      "totalprice" : 100,
+      "depositpaid" : true,
+      "bookingdates" : {
+        "checkin" : "2023-11-01",
+        "checkout" : "2023-11-15"
+      },
+      "additionalneeds" : "Breakfast"
+    }
+  },
+  {
+    "scenario": 2,
+    "schema":
+    {
+      "lastname" : "Linconao",
+      "depositpaid" : true,
+      "bookingdates" : {
+        "checkin" : "2023-11-01",
+        "checkout" : "2023-11-15"
+      },
+      "additionalneeds" : "Breakfast"
+    }
+  },
+  {
+    "scenario": 3,
+    "schema":
+    {
+      "firstname" : "",
+      "lastname" : "",
+      "bookingdates" : {
+        "checkin" : "2023-11-01",
+        "checkout" : "2023-11-15"
+      },
+      "additionalneeds" : "Breakfast"
+    }
+  },
+  {
+    "scenario": 4,
+    "schema":
+    {
+      "firstname" : 111,
+      "lastname" : 222,
+      "totalprice" : 100,
+      "depositpaid" : true,
+      "bookingdates" : {
+        "checkin" : "2023-11-01",
+        "checkout" : "2023-11-15"
+      },
+      "additionalneeds" : "Breakfast"
+    }
+  },
+  {
+    "scenario": 5,
+    "schema":
+    {
+      "firstname" : "Moises",
+      "lastname" : "Schwindt",
+      "totalprice" : 1000,
+      "depositpaid" : true,
+      "bookingdates" : {
+        "checkin" : "2024-01-01",
+        "checkout" : "2024-01-01"
+      },
+      "additionalneeds" : "Breakfast"
+    }
+  },
+  {
+    "scenario": 6,
+    "schema":
+    {
+      "firstname" : "Juan",
+      "lastname" : "Perez"
+    }
+  }
+
+]
